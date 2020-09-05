@@ -1,0 +1,28 @@
+TODO
+====
+- work 1
+- work 2
+
+
+WORK
+======
+teis is header
+
+NOTES
+=====
+Format plain text file
+
+Supports
+  *bold*
+  _underline_
+  /italic/
+
+Folding with
+  header
+  ======
+
+CODE BLOCK >
+  fmt.Println("code")
+<
+Virtual text for URL (when cursorhold)
+  https://www.youtube.com/watch?v=cMscNuSUy0I
