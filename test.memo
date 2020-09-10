@@ -18,11 +18,13 @@ Supports
   /italic/
 
 Folding with
-  header
-  ======
+header
+======
 
 CODE BLOCK >
   fmt.Println("code")
 <
 Virtual text for URL (when cursorhold)
   https://www.youtube.com/watch?v=cMscNuSUy0I
+
+https://github.com/nanotee/nvim-lua-guide

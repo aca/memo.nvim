@@ -24,6 +24,10 @@ syntax match ItalicMark /\(\(^\|[[:space:](\["']\)\/[0-9a-zA-Z\u099-\uFFFF]\(\([
 syn region helpExample	matchgroup=helpIgnore start=" >$" start="^>$" end="^[^ \t]"me=e-1 end="^<" concealends
 hi def link helpExample	String
 
+" URL
+syntax match URL "https://\S*\|http://\S*"
+hi def link URL Comment
+
 " TODO
 " syntax match todoCheckbox "\[\ \]" conceal cchar=
 " syntax match todoCheckbox "\[x\]" conceal cchar=

@@ -1,8 +1,8 @@
-if exists("b:did_ftplugin")
+if exists("b:did_ftplugin_memo")
 	finish
 endif
 
-let b:did_ftplugin = 1
+let b:did_ftplugin_memo = 1
 
 " FOLD
 function! CustomFoldText()
@@ -10,7 +10,7 @@ function! CustomFoldText()
 endfunction
 set foldmethod=expr
 set foldtext=CustomFoldText()
-set foldexpr=getline(v\:lnum+1)=~'.*===='?'>1'\:'='
+set foldexpr=getline(v\:lnum+1)=~'^=='?'>1'\:'='
 
 " augroup memo
 augroup memo
